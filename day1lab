@@ -43,6 +43,55 @@ print("second digit:",second)
 print("third digit:",third)'''
 
 #task 7:swap without a third variable using bitwise operators
+'''a=int(input("enter a value:"))
+b=int(input("enter b value"))
+a=a^b
+b=a^b
+a=a^b
+print("a=",a)
+print("b=",b)'''
+
+#task 8:the atm cashier breakdown
+'''amount=int(input("enter amount:"))
+five_hundred= amount//500
+remaining= amount%500
+hundred=remaining//100
+print("500 notes:",five_hundred)
+print("100 notes:",hundred)'''
+
+#task 9:weeks and lefover days breakdown
+'''days=int(input("enter total number of days:"))
+weeks=days//7
+leftover_days=days%7
+print("no of weeks:",weeks)
+print("no of days left:",leftover_days)'''
+
+#task 10:reverse a 2-digit number mathematically
+'''number=int(input("enter 2-digit number:"))
+last_digit=number%10
+first_digit=number//10
+reverse=(last_digit*10)+first_digit
+print("reversed number=",reverse)'''
+
+
+
+
+
+
+
+
+
+
+           
+    
+
+    
+
+
+
+
+
+
 
 
 
