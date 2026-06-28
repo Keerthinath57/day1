@@ -1,0 +1,185 @@
+task:1
+'''marks=int(input("enter marks:"))
+if marks>=35:
+    print("pass")
+else:
+    print("fail")'''
+
+task:2
+'''vote=int(input("enter age:"))
+if vote>=18:
+    print("eligible")
+else:
+    print("not eligible")'''
+
+task:3
+'''amount=int(input("enter amount:"))
+if amount>=5000:
+    discount=amount*0.10
+    finalamount=amount-discount
+    print("discount:",discount)
+    print("final amount:",finalamount)
+else:
+    print("no discount")
+    print("final amount:",amount)'''
+
+task:4
+'''storedpassword="mystic145"
+enteredpassword=(input("enter your password:"))
+if enteredpassword==storedpassword:
+    print("access granted")
+else:
+    print("access denied")'''
+
+task:5
+'''marks=int(input("enter your marks:"))
+if marks>=90 and marks<=100:
+    print("Grade A")
+
+elif marks>=75 and marks<=89:
+        print("Grade B")
+
+elif marks>=50 and marks<=74:
+        print("Grade C")
+
+elif marks<=50:
+        print("Fail")
+
+else:
+        print("Invalid marks")'''
+
+task:6
+'''a=int(input("enter a:"))
+b=int(input("enter b:"))
+cal=input("enter +,-,*,/:")
+if cal=="+":
+   print(a+b)
+elif cal=="-":
+   print(a-b)
+elif cal=="*":
+   print(a*b)
+elif cal=="/":
+   print(a/b)
+else:
+   print("not cal")'''
+
+task:7
+'''units=int(input("enter a units:"))
+if units<=100:
+     print(units*2)
+elif units<=200:
+     print(units*3)
+elif units>=200:
+     print(unit*5)
+else:
+     print("nt units consum")'''
+
+task:8
+'''age=int(input("enter a age:"))
+if age<=5:
+    print("ticket free")
+elif age<=12:
+    print("ticket 50")
+elif age>=12:
+    print("ticket 100")
+else:
+    print("age:",age)'''
+
+task:9
+'''salary=int(input("enter a salary:"))
+score=int(input("enter a score:"))
+if salary>=30000 and scoore>=700:
+    print("eligible for the loan")
+else:
+    print("not eligible for the loan")'''
+
+task:10
+'''percentage=int(input("enter a percentage:"))
+score=int(input("enter a score:")0
+if percentage>=60 and score>=70:
+     print("eligible for the college")
+else:
+     print("not eligible for the college")'''
+
+task:11
+'''percentage=int(input("enter a percentage:"))
+aptitude=int(input("enter a aptitude:"))
+if percentage>=65 and aptitude>=75:
+     print("eligible for the company")
+else:
+     print("not eligible for the company")'''
+
+task:12
+'''score=int(input("enter a score:"))
+attendance=int(input("enter a attendance:"))
+if score>=80 and attendance>=75:
+     print("eligible for the scholarship")
+else:
+     print("not eligible for the scholarship")'''
+
+task:13
+'''balance=int(input("enter a balance:"))
+amount=int(input("enter amount:"))
+if balance>=amount:
+     pin=str(input("enter a pin:"))
+if pin=="1234":
+     print("transaction successfully")
+else:
+     print("wrong pin")
+else:
+     print("insufficient balance")'''
+
+task:14
+'''username=str(input("enter a username:"))
+if username=="ram":
+    password=input("enter password:")
+    if password=="533892":
+       otp=input("enter otp:")
+    if otp=="1159394":
+         print("login successful")
+
+    else:
+          print("invalid otp:")
+    else:
+          print("wrong password")
+else:
+       print("wrong username")'''
+
+task:15
+'''doctor=input("doctor available(yes/no):")
+if doctor=="yes":
+     print("yes doctor is available")
+slot=input("slot available(yes/no):')
+    if slot=="yes":
+         print("slot is available")
+    else:
+         print("slot is not available")
+else:
+      print("doctor is not available")'''
+
+task:16
+'''registered=input("registered(yes/no):")
+if registered=="yes":
+       print("registered")
+    fees=input("fees paid(yes/no):")
+    if fees=="yes":
+         print("access granted")
+
+    else:
+         print("pay fees")
+else:
+       print("not registered")'''
+
+task:17
+
+         
+     
+
+
+
+        
+
+    
+
+
+                 
