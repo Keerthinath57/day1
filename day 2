@@ -171,6 +171,55 @@ else:
        print("not registered")'''
 
 task:17
+'''exp=int(input("enter the exp:"))
+if exp>=3:
+       print("emp is eligible")
+    rat=int(input("enter rating:"))
+    if rat>=8:
+       print("eligible for bonus")
+    else:
+       print("not eligible for bonus rating")
+else:
+     print("emp is not eligible")'''
+
+task:18
+'''ticket=input("ticket is available (yes/no):")
+if ticket=="yes":
+        print("hall ticket is available")
+     fees=input("fees cleared (yes/no):")
+     if fees=="yes":
+         print("fees paid")
+     else:
+         print("no fees cleared")
+else:
+     print("hall ticket is not available")'''
+
+task:19
+'''selected=input("is the student selected for admission (yes/no):")
+if selected=="yes":
+       print("student eligible for hostel alllotment")
+       rooms=input("are rooms available (yes/no):")
+       if rooms=="yes":
+           print("hostel rooms alloted successfully")
+       else:
+           print("no rooms available")
+else:
+      print("student is not selected")'''
+
+task:20
+'''member=input("are you a premium member(yes/no):")
+amount=float(input("enter purchase amount:"))
+
+if member=="yes" and amount>5000:
+      discount=amount*20/100
+      print("20% discount applied")
+      print("discount amount=",discount)
+elif member=="no" and amount>5000:
+          discount=amount*10/100
+          print("10% discount applied")
+          print("discount amount=",discount)
+else:
+     print("no discount available")'''
 
          
      
