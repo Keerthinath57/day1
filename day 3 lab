@@ -1,0 +1,71 @@
+#task:1
+'''n=str(input("enter your name:"))
+for i in range(5):
+     print(n)'''
+
+#task:2
+'''for i in range(1,21):
+       print(i)'''
+
+#task:3
+'''for i in range(20,0,-1):
+        print(i)'''
+
+#task:4
+'''for i in range(1,51):
+    if i%2==0:
+        print(i)'''
+
+#task:5
+'''for i in range(1,50):
+    if i%2!=0:
+        print(i)'''
+
+#task:6
+'''sum=0
+for i in range(1,11):
+    sum=sum+i
+    print(sum)'''
+
+#task:7
+'''num=int(input("enter number:"))
+for i in range(1,11):
+    print(num,"x",i,"=",num*i)'''
+
+#task:8
+'''name=input("enter name:")
+count=len(name)
+print("letters:",count)'''
+
+#task:9
+'''word=input("enter word:")
+for i in word:
+    print(i)'''
+
+#task:10
+'''word=str(input("enter word:"))
+vowels="a,e,i,o,u"
+count=0
+for i in word:
+    if i in "vowel":
+        count+=1
+print("count the vowels:",count)'''
+
+#task:11
+'''n=7
+for i in range(n):
+    for j in range(n):
+        if i==j or i+j==n-1:
+            print("*",end=" ")
+        else:
+            print("",end=" ")
+    print()'''
+
+#task:12
+'''for i in range(1,6):
+    for j in range(i):
+        print("*",end=" ")
+    print()'''
+    
+
+
