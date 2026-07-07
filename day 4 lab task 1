@@ -1,0 +1,193 @@
+#task 1:
+'''i=1
+while i<=10:
+    print(i)
+    i+=1'''
+
+#task 2:
+'''i=10
+while i>=1:
+    print(i)
+    i-=1'''
+
+#task 3:
+'''i=2
+while i<=20:
+    print(i)
+    i+=2'''
+
+#task 4:
+'''i=1
+while i<=20:
+    print(i)
+    i+=2'''
+
+#task 5:
+'''i=1
+total=0
+
+while i<=50:
+    total+=i
+    i+=1
+
+print("sum=",total)'''
+
+#task 6:
+'''num=int(input("enter a number:"))
+i=1
+
+while i<=10:
+    print(num,"x",i,"=",num*i)
+    i+=1'''
+
+#task 7:
+'''num=int(input("enter a number:"))
+count=0
+
+while num >0:
+    count+=1
+    num//=10
+
+print("Digits=",count)'''
+
+#task 8:
+'''num=int(input("enter a number:"))
+reverse=0
+
+while num>0:
+    digit=num%10
+    reverse=reverse*10+digit
+    num//=10
+
+print("reverse=",reverse)'''
+
+#task 9:
+'''num=int(input("enter a number:"))
+t=num
+b=0
+while t>0:
+    digit=t%10
+    b=b*10+digit
+    t=t//10
+
+if num==b:
+    print("palindrome")
+else:
+    print("not a palindrome")'''
+
+#task 10:
+'''a=int(input("enter a number:"))
+t=a
+b=0
+c=1
+
+while t>0:
+    d=t%10
+    b+=d
+    c*=d
+    t//=10
+
+print(b)
+
+print(c)
+    
+if b==c:
+    print("spy number")
+
+else:
+    print("not a spy number")'''
+
+#task 11:
+'''a=int(input("enter a number:"))
+t=a
+b=0
+
+while t>0:
+    d=t%10
+    b+=d
+    t//=10
+
+print("sum=",b)'''
+
+#task 12:
+'''a=int(input("enter a number:"))
+t=a
+c=1
+
+while t>0:
+    d=t%10
+    c*=d
+    t//=10
+
+print("product",c)'''
+
+#task 13:
+'''a=int(input("enter a number:"))
+t=a
+digits=len(str(a))
+b=0
+
+while t>0:
+    digit=t%10
+    b+=digit**digits
+    t//=10
+
+if b==a:
+    print("armstrong number")
+
+else:
+    print("not armstrong number")'''
+
+#task 14:
+'''A=int(input("enter a number:"))
+L=0
+
+while A>0:
+    D=A%10
+    if D>L:
+        L=D
+        A=A//10
+
+print("largest digit:",L)'''
+
+#task 15:
+'''a=int(input("enter a number:"))
+s=9
+
+while a>0:
+    d=a%10
+    if d<s:
+        s=d
+        a=a//10
+
+print("smallest digit=",s)'''
+
+#task 16:
+'''n=int(input("Enter number of terms:"))
+
+a=0
+b=1
+count=1
+
+while count<=n:
+    print(a)
+    c=a+b
+    a=b
+    b=c
+    count+=1'''
+
+#task 17:
+'''n=int(input("enter a number:"))
+
+fact=1
+i=1
+
+while i<=n:
+    fact=fact*i
+    i+=1
+
+print("Factorial:",fact)'''
+
+
+
+    
