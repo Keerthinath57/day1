@@ -1,0 +1,55 @@
+#Task 1
+'''a="ronaldo the goat"
+print(a.upper())
+print(a.lower())
+print(a.title())'''
+
+#Task 2
+'''a="ronldo123@gmail.com"
+print(a.startswith())
+print(a.endswith())
+from traceback import print_tb'''
+
+#Task 3
+'''a="ronaldo the goaaattt"
+print(a.count("a"))
+print(a.count("o"))'''
+
+#Task 4
+'''a="dhoni is the goattttt"
+print(a.find("i"))
+print(a.find("o"))'''
+
+#Task 5
+'''a="keerthi123"
+print(a.isalpha())
+print(a.isalnum())
+print(a.isdigit())'''
+
+#Task 6
+'''a="Keerthi Ronaldo"
+print(a.center(20,"*"))
+print(a.ljust(20,"*"))
+print(a.rjust(20,"*"))'''
+
+#Task 7
+'''a="Livewire is an institute"
+print(a.upper())
+print(a.lower())
+print(a.swapcase())'''
+
+#Task 8
+'''a="Im a Python Developer"
+print(a.replace("Python","Java"))'''
+
+#Task 9
+'''a="23csk10001"
+print(a.zfill(20))'''
+
+#Task 10
+'''a="ronaldo is the greatest footballer"
+print(a.isdigit())
+print(a.islower())
+print(a.istitle())'''
+print(a.istitle())'''
+
