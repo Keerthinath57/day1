@@ -51,5 +51,4 @@ print(a.zfill(20))'''
 print(a.isdigit())
 print(a.islower())
 print(a.istitle())'''
-print(a.istitle())'''
 
