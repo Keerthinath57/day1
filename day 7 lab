@@ -1,0 +1,512 @@
+# Easy Task:
+# 1
+# def hello():
+#     print("Hello World!")
+# hello()
+
+# 2
+# def add(a,b):
+#     print("ADD:",a+b)
+# add(30,40)
+
+# 3
+# def sub(a,b):
+#     print("SUB:",a-b)
+# sub(40,30)
+
+# 4
+# def mul(a,b):
+#     print("MUL:",a*b)
+# mul(40,30)
+
+# 5
+# def div(a,b):
+#     print("DIV:",a/b)
+# div(40,30)
+
+# 6
+# def square(n):
+#     print("SQUARE:",n*n)
+# square(10)
+
+# 7
+# def cube(n):
+#     print("cube:",n*n*n)
+# cube(10)
+
+# 8
+# def even_odd(n):
+#     if n%2==0:
+#         print("Even")
+#     else:
+#         print("Odd")
+# even_odd(8)
+
+# 9
+# def largest(a,b):
+#     if a>b:
+#         print("greater")
+#     else:
+#         print("smaller")
+# largest(8,9)
+
+# 10
+# def rectangle(l,b):
+#     print("rectangle:",l*b)
+# rectangle(4,5)
+
+# Intermediate task
+# 11
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+# print(factorial(5))
+
+# 12
+# def is_prime(n):
+#     if n<2:
+#         return"Not Prime"
+#     for i in range(2,n):
+#         if n%i==0:
+#             return "Not Prime"
+#     return "Prime"
+#
+# print(is_prime(7))
+
+# 13
+# def fibonacci(n):
+#     a,b=0,1
+#     for i in range(n):
+#         print(a,end="")
+#         a,b=b,a+b
+# fibonacci(5)
+
+# 14
+# def reverse(s):
+#     return s[::-1]
+# print(reverse("Python"))
+
+# 15
+# def vowels(s):
+#     count=0
+#     for ch in s.lower():
+#         if ch in "AEIOUaeiou":
+#             count+=1
+#     return count
+# print(vowels("Arun"))
+
+# 16
+# def palindrome(s):
+#     return s==s[::-1]
+# print(palindrome("madam"))
+
+# 17
+# def second_largest(l):
+#     l=list(set(l))
+#     l.sort()
+#     return l[-2]
+# print(second_largest([10,20,30,40]))
+
+# 18
+# def remove_duplicates(l):
+#     return list(set(l))
+#
+# print(remove_duplicates([1,2,2,3,3,4]))
+
+# 19
+# def frequency(s):
+#     d={}
+#     for ch in s:
+#         d[ch]=d.get(ch,0)+1
+#     return d
+#
+# print(frequency("apple"))
+
+# 20
+# def total(l):
+#     return sum(l)
+#
+# print(total([1,2,3,4]))
+
+# Lambda
+# 1
+# add=lambda a,b:a+b
+# print(add(10,20))
+
+# 2
+# square=lambda a:a*a
+# print(square(5))
+
+# 3
+# cube=lambda a:a*a*a
+# print(cube(5))
+
+# 4
+# even=lambda a:a%2==0
+# print(even(8))
+
+# 5
+# largest=lambda a,b: a if a>b else b
+# print(largest(10,20))
+
+# intermediate
+# 6
+# students = [("John", 20), ("Sam", 18), ("Alex", 22)]
+#
+# students.sort(key=lambda x: x[1])
+# print(students)
+
+# 7
+# students = [("John", 80), ("Sam", 95), ("Alex", 70)]
+#
+# students.sort(key=lambda x: x[1])
+# print(students)
+
+# 8
+# words = ["cat", "elephant", "dog"]
+#
+# longest = max(words, key=lambda x: len(x))
+# print(longest)
+
+# 9
+# discount = lambda price: price - (price * 0.10)
+#
+# print(discount(1000))
+
+# 10
+# c_to_f = lambda c: (c * 9/5) + 32
+#
+# print(c_to_f(25))
+
+# map function
+# 1
+# numbers = [1, 2, 3, 4]
+#
+# result = list(map(lambda x: x * x, numbers))
+# print(result)
+
+# 2
+# names = ["john", "sam", "alex"]
+#
+# result = list(map(str.upper, names))
+# print(result)
+
+# 3
+# numbers = [5, 10, 15]
+#
+# result = list(map(lambda x: x + 10, numbers))
+# print(result)
+
+# 4
+# numbers = [1, 2, 3]
+#
+# result = list(map(lambda x: x * 2, numbers))
+# print(result)
+
+# 5
+# numbers = [1, 2, 3]
+#
+# result = list(map(lambda x: x ** 3, numbers))
+# print(result)
+
+# intermediate
+# 6
+# celsius = [0, 20, 30]
+#
+# fahrenheit = list(map(lambda c: (c * 9/5) + 32, celsius))
+# print(fahrenheit)
+
+# 7
+# salary = [20000, 30000, 40000]
+#
+# new_salary = list(map(lambda x: x + 5000, salary))
+# print(new_salary)
+
+# 8
+# words = ["apple", "cat", "python"]
+#
+# lengths = list(map(len, words))
+# print(lengths)
+
+# 9
+# words = ["HELLO", "WORLD"]
+#
+# result = list(map(str.lower, words))
+# print(result)
+
+# 10
+# prices = [100, 200, 300]
+#
+# gst = list(map(lambda x: x * 1.18, prices))
+# print(gst)
+
+# Filter function easy
+# 1
+# numbers = [10, 15, 22, 33, 40]
+#
+# result = list(filter(lambda x: x % 2 == 0, numbers))
+# print(result)
+
+# 2
+# numbers = [10, 15, 22, 33, 40]
+#
+# result = list(filter(lambda x: x % 2 != 0, numbers))
+# print(result)
+
+# 3
+# numbers = [-5, 10, -2, 8, 0]
+#
+# result = list(filter(lambda x: x > 0, numbers))
+# print(result)
+
+# 4
+# numbers = [-5, 10, -2, 8, 0]
+#
+# result = list(filter(lambda x: x < 0, numbers))
+# print(result)
+
+# 5
+# numbers = [20, 55, 40, 80, 90]
+#
+# result = list(filter(lambda x: x > 50, numbers))
+# print(result)
+
+# Intermediate
+# 6
+# def prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
+#
+# numbers = [2, 4, 5, 8, 11, 15]
+#
+# result = list(filter(prime, numbers))
+# print(result)
+
+# 7
+# marks = [65, 78, 90, 45, 80]
+#
+# result = list(filter(lambda x: x > 75, marks))
+# print(result)
+
+# 8
+# names = ["Arun", "Bala", "Anu", "Kiran"]
+#
+# result = list(filter(lambda x: x.startswith("A"), names))
+# print(result)
+
+# 9
+# prices = [500, 1200, 900, 2500]
+#
+# result = list(filter(lambda x: x > 1000, prices))
+# print(result)
+
+# 10
+# salary = [25000, 35000, 50000, 28000]
+#
+# result = list(filter(lambda x: x > 30000, salary))
+# print(result)
+
+# Recursion
+# Easy
+# 1
+# def print_num(n):
+#     if n > 10:
+#         return
+#     print(n)
+#     print_num(n + 1)
+#
+# print_num(1)
+
+# 2
+# def print_num(n):
+#     if n == 0:
+#         return
+#     print(n)
+#     print_num(n - 1)
+#
+# print_num(10)
+
+# 3
+# def sum_n(n):
+#     if n == 1:
+#         return 1
+#     return n + sum_n(n - 1)
+#
+# print(sum_n(5))
+
+# 4
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     return n * fact(n - 1)
+#
+# print(fact(5))
+
+# 5
+# def print_name(n):
+#     if n == 0:
+#         return
+#     print("Keerthinath")
+#     print_name(n - 1)
+#
+# print_name(5)
+
+# Intermediate
+# 6
+# def fib(n):
+#     if n <= 1:
+#         return n
+#     return fib(n - 1) + fib(n - 2)
+#
+# for i in range(6):
+#     print(fib(i), end=" ")
+
+# 7
+# def reverse(s):
+#     if s == "":
+#         return ""
+#     return reverse(s[1:]) + s[0]
+#
+# print(reverse("Python"))
+
+# 8
+# def gcd(a, b):
+#     if b == 0:
+#         return a
+#     return gcd(b, a % b)
+#
+# print(gcd(12, 18))
+
+# 9
+# def count(n):
+#     if n < 10:
+#         return 1
+#     return 1 + count(n // 10)
+#
+# print(count(12345))
+
+# 10
+# def palindrome(s):
+#     if len(s) <= 1:
+#         return True
+#     if s[0] != s[-1]:
+#         return False
+#     return palindrome(s[1:-1])
+#
+# print(palindrome("madam"))
+
+# scenario based questions
+
+# 1
+# def result(marks):
+#     if marks >= 75:
+#         return "Distinction"
+#     elif marks >= 60:
+#         return "First Class"
+#     elif marks >= 50:
+#         return "Second Class"
+#     else:
+#         return "Fail"
+#
+# print(result(78))
+
+# 2
+# def salary_bonus(salary):
+#     bonus = salary * 0.10
+#     return salary + bonus
+#
+# print(salary_bonus(20000))
+
+# 3
+# def bill(units):
+#     return units * 5
+#
+# print(bill(100))
+
+# 4
+# def vote(age):
+#     if age >= 18:
+#         return "Eligible"
+#     else:
+#         return "Not Eligible"
+#
+# print(vote(20))
+
+# 5
+# def shopping(total):
+#     gst = total * 0.18
+#     return total + gst
+#
+# print(shopping(1000))
+
+# 6
+# balance = 1000
+#
+# def deposit(amount):
+#     global balance
+#     balance += amount
+#
+# def withdraw(amount):
+#     global balance
+#     if amount <= balance:
+#         balance -= amount
+#     else:
+#         print("Insufficient Balance")
+#
+# def check_balance():
+#     return balance
+#
+# deposit(500)
+# withdraw(300)
+# print(check_balance())
+
+# 7
+# def attendance(attended, total):
+#     return (attended / total) * 100
+#
+# print(attendance(45, 50))
+
+# 8
+# def exam(m1, m2, m3):
+#     total = m1 + m2 + m3
+#     percentage = total / 3
+#
+#     if percentage >= 75:
+#         grade = "A"
+#     elif percentage >= 60:
+#         grade = "B"
+#     elif percentage >= 50:
+#         grade = "C"
+#     else:
+#         grade = "Fail"
+#
+#     return total, percentage, grade
+#
+# print(exam(80, 70, 90))
+
+# 9
+# def fine(days):
+#     return days * 2
+#
+# print(fine(5))
+
+# 10
+# def ticket_cost(seats):
+#     price = 200
+#     total = seats * price
+#     return total
+# 
+# seats = int(input("Enter number of seats:"))
+# print("Total Cost: ₹", ticket_cost(seats))
+
+
+
+
+
+
